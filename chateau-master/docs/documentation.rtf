@@ -1,0 +1,653 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 AndaleMono;\f2\fnil\fcharset0 HelveticaNeue-Roman;
+\f3\fnil\fcharset0 LucidaGrande;\f4\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red65\green143\blue155;\red26\green26\blue26;\red205\green205\blue205;
+\red230\green230\blue230;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid1\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid101\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid201\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid301\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid401\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww20260\viewh19620\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+
+\f0\b\fs48 \cf0 CHATEAU HTML TEMPLATE DOCUMENTATION
+\fs36 \
+\
+Table of contents
+\b0\fs24 \
+\
+1. What's included\
+2. HTML Structure\
+	2.1 Head\
+	2.2 Body\
+3. Parallax\
+4. On-scroll effects\
+5. Swiper Slider\
+6. Isotope\
+7. Plug-ins and other references\
+\
+
+\b\fs36 1. What's included
+\b0\fs24 \
+\
+Once downloaded and unzipped the chateau-master.zip package you will find in the main folder the following contents:\
+\
+\pard\pardeftab720
+
+\f1 \cf2 \expnd0\expndtw0\kerning0
+chateau-master/\
+\uc0\u9500 \u9472 \u9472  bootstrap/\
+\uc0\u9474    \u9500 \u9472 \u9472  css/\
+\uc0\u9474    \u9474    \u9500 \u9472 \u9472  bootstrap.css\
+\uc0\u9474    \u9474    \u9492 \u9472 \u9472  bootstrap.min.css\
+\uc0\u9474    \u9492 \u9472 \u9472  js/\
+\uc0\u9474        \u9500 \u9472 \u9472  bootstrap.js\
+\uc0\u9474        \u9492 \u9472 \u9472  bootstrap.min.js\
+\uc0\u9500 \u9472 \u9472  dev/\
+\uc0\u9474    \u9500 \u9472 \u9472  chateau-script.js\
+\uc0\u9474    \u9492 \u9472 \u9472  chateau-theme.less\
+\uc0\u9500 \u9472 \u9472  doc/\
+\uc0\u9474    \u9492 \u9472 \u9472  documentation.pdf\
+\uc0\u9500 \u9472 \u9472  images/\
+\uc0\u9474    \u9492 \u9472 \u9472  \'85\
+\uc0\u9500 \u9472 \u9472  src/\
+\uc0\u9474    \u9500 \u9472 \u9472  css/\
+\uc0\u9474    \u9474    \u9500 \u9472 \u9472  animate.css\
+\uc0\u9474    \u9474    \u9500 \u9472 \u9472  chateau-theme.css\
+\uc0\u9474    \u9474    \u9500 \u9472 \u9472  font-awesome.css\
+\uc0\u9474    \u9474    \u9500 \u9472 \u9472  swipebox.css\
+\uc0\u9474    \u9474    \u9500 \u9472 \u9472  swiper.min.css\
+\uc0\u9474    \u9474    \u9492 \u9472 \u9472  winemaker-theme.css\
+\uc0\u9474    \u9500 \u9472 \u9472  fonts/\
+\uc0\u9474    \u9474    \u9492 \u9472 \u9472  \'85\
+\uc0\u9474    \u9492 \u9472 \u9472  js/\
+\uc0\u9474        \u9500 \u9472 \u9472  chateau-script.js\
+\uc0\u9474        \u9500 \u9472 \u9472  winemaker-theme.js\
+\uc0\u9474        \u9500 \u9472 \u9472  jquery.swipebox.min.js\
+\uc0\u9474        \u9500 \u9472 \u9472  swiper.jquery.min.js\
+\uc0\u9474        \u9500 \u9472 \u9472  isotope.pkgd.min.js\
+\uc0\u9474        \u9500 \u9472 \u9472  jquery-1.11.3.min.js\
+\uc0\u9474        \u9500 \u9472 \u9472  jquery.stellar.js\
+\uc0\u9474        \u9500 \u9472 \u9472  jquery.waypoints.min.js\
+\uc0\u9474        \u9500 \u9472 \u9472  sticky.js\
+\uc0\u9474        \u9492 \u9472 \u9472  modernizr-2.6.2.min.js\
+\uc0\u9500 \u9472 \u9472  blog-entry-alternative.html\
+\uc0\u9500 \u9472 \u9472  blog-entry.html\
+\uc0\u9500 \u9472 \u9472  blog-masonry.html\
+\uc0\u9500 \u9472 \u9472  blog-standard.html\
+\uc0\u9500 \u9472 \u9472  buy-online.html\
+\uc0\u9500 \u9472 \u9472  cart.html\
+\uc0\u9500 \u9472 \u9472  contact.html\
+\uc0\u9500 \u9472 \u9472  elements.html\
+\uc0\u9500 \u9472 \u9472  faq.html\
+\uc0\u9500 \u9472 \u9472  gallery.html\
+\uc0\u9500 \u9472 \u9472  homepage.html\
+\uc0\u9500 \u9472 \u9472  login.html\
+\uc0\u9500 \u9472 \u9472  our-history.html\
+\uc0\u9500 \u9472 \u9472  product-sheet.html\
+\uc0\u9500 \u9472 \u9472  products.html\
+\uc0\u9500 \u9472 \u9472  register.html\
+\uc0\u9500 \u9472 \u9472  the-vineyard.html\
+\uc0\u9492 \u9472 \u9472  who-we-are.html\cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+
+\f0 \cf0 \
+Let\'92s see what\'92s inside.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+
+\b \cf0 /boostrap
+\b0 \
+Chateau HTML Template is build on the powerful bootstrap framework. This folder contains the js and css bootstrap core files. These files should not be modified in order to preserve Bootstrap core functions. We\'92ll see later which files to modify if you\'92d like to edit Chateau HTML Template\
+\
+
+\b /dev
+\b0 \
+If you\'92re familiar with LESS and css or js processors, here are the files for you. Once compiled chateau-theme.less will generate a chateau-theme.css file. You will clearly find the compiled version, on which we performed a bunch of extra controls, such as autoprefixer to automatically generate some required vendors css prefixes.\
+\
+
+\b /doc
+\b0 \
+This folder contains help files and documentations\
+\
+
+\b /images
+\b0 \
+Due to rights limitations, we could not include images in the master package. In this folder you\'92ll find some placeholder images. Refer to the demo version if you wish to see pages with real photos.\
+\
+
+\b /src
+\b0 \
+This folder contains the main theme files: css, js, fonts. We\'92ll see later each one in details.\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+
+\b\fs36 \cf0 2. HTML Structure
+\b0\fs24 \
+\
+\pard\pardeftab720\sl288\slmult1
+
+\f2\fs26 \cf3 \expnd0\expndtw0\kerning0
+Chateau HTML Template is a Based on Bootstrap 3.0. Bootstrap documentation can help you on customize html & grids & layouts. Here\'92s an overview of how the pages main structure\
+\
+\
+
+\b\fs30 \expnd0\expndtw0\kerning0
+2.1 Head\
+
+\b0\fs26 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720
+
+\f1 \cf2 \expnd0\expndtw0\kerning0
+<head>\
+<title>Chateau</title>\
+\
+<!-- meta -->\
+<meta charset="utf-8">\
+<meta content="" name="description">\
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">\
+\
+<!-- css -->\
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">\
+<link href="src/css/font-awesome.css" rel="stylesheet">\
+<link href="src/css/animate.css" rel="stylesheet">\
+<link href="src/css/swipebox.css" rel="stylesheet">\
+<link href="src/css/swiper.min.css" rel="stylesheet">\
+<link href="src/css/chateau-theme.css" rel="stylesheet">\
+\
+<!-- google fonts -->\
+<link href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet" type="text/css">\
+<link href="http://fonts.googleapis.com/css?family=Merriweather:300,400,700,900,900italic,700italic,400italic,300italic" rel="stylesheet" type="text/css">\
+<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">\
+\
+<!-- head js -->\
+<script src="src/js/modernizr-2.6.2.min.js"></script>\
+</head>\
+\pard\pardeftab720\sl288\slmult1
+
+\f2 \cf2 \expnd0\expndtw0\kerning0
+\
+
+\b \cf3 Meta tags
+\b0 \expnd0\expndtw0\kerning0
+\
+The first 
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 group of tags you will find in the head section of each page is meta. Write your description as you wish. \
+\
+
+\b Css includes
+\b0 \
+Next you will find css, 6 in total. The file bootstrap.css is the core bootstrap file. As said above, do not modify it.\
+Right after there is font-awesome.css, the icon font included with Chateau HTML Template.\
+The animate.css file is in charge of animating elements with some nice effects.\
+Swipebox is a lightbox jQuery plugin, and swipebox.css is its style.\
+Swiper is another cool jQuery plugin to create fluid carousels and sliders.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+
+\b \cf0 Google Fonts
+\b0 \
+We choose for Chateau HTML Template three among the best google fonts. If you need more info about Google Fonts, refer to official documentation.\
+\
+
+\b Modernizr
+\b0 \
+This library let us safely use HTML5 even with browsers that do not fully support it.\
+\
+\
+\pard\pardeftab720\sl288\slmult1
+
+\f2\b\fs30 \cf3 \expnd0\expndtw0\kerning0
+2.2 Body
+\f0\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+\cf0 \
+\pard\pardeftab720\sl288\slmult1
+\cf0 Each page contain two main block elements.\
+\
+\pard\pardeftab720
+
+\f1\fs26 \cf2 \expnd0\expndtw0\kerning0
+<aside id="side-nav"> \'85 </aside>\
+<div class="container-fluid" id="main-container"> \'85 </div>
+\f0\fs24 \cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+\cf0 \
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\sl288\slmult1\pardirnatural
+\ls1\ilvl0\cf0 {\listtext	
+\f3 \uc0\u9642 
+\f0 	}The first one contains the slide-in right side secondary navigation. You can open/close it by clicking on the three vertical dots icon on the top right corner of the page.\
+{\listtext	
+\f3 \uc0\u9642 
+\f0 	}The second one, as it name suggests, it is the main container. You can easily switch between fixed or fullwidth layout by simply changing the bootstrap class \'93container\'94 (for fixed width) or \'93container-fluid\'94 (for full-width).\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+\cf0 \
+The main container often conatains one ore more section tags, in depends of each page, which organize the content in an ordered manner.\
+To the very bottom of each page, you will find the rest of the js scripts to make things work:\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f1 \cf2 \expnd0\expndtw0\kerning0
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>\
+<script type="text/javascript">if (!window.jQuery) \{ document.write('<script src="src/js/jquery-1.11.3.min.js"><\\/script>'); \}</script>\
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>\
+<script type="text/javascript" src="src/js/jquery.swipebox.min.js"></script>\
+<script type="text/javascript" src="src/js/jquery.stellar.js"></script>\
+<script type="text/javascript" src="src/js/swiper.jquery.min.js"></script>\
+<script type="text/javascript" src="src/js/jquery.waypoints.min.js"></script>\
+<script type="text/javascript" src="src/js/sticky.js"></script>\
+<script type="text/javascript" src="src/js/isotope.pkgd.min.js"></script>\
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>\
+<script type="text/javascript" src="src/js/chateau-script.js"></script>\cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+
+\f0 \cf0 \
+First things first, we include a cdn version of jQuery. We also specify a fallback version of it in case o connection issues. Then we included the core bootstrap.js file. Following you will see the entire lists of plugins included, already discussed in the css paragraph. Additionally, you will find these plugins:\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\sl288\slmult1\pardirnatural
+\ls2\ilvl0\cf0 {\listtext	
+\f3 \uc0\u9642 
+\f0 	}stellar.js - to add parallax effect\
+{\listtext	
+\f3 \uc0\u9642 
+\f0 	}waypoints.js - to trigger scroll events\
+{\listtext	
+\f3 \uc0\u9642 
+\f0 	}sticky.js - an extension of waypoints to add sticky header functions\
+{\listtext	
+\f3 \uc0\u9642 
+\f0 	}isotope.js - to create masonry and filtrable layouts\
+{\listtext	
+\f3 \uc0\u9642 
+\f0 	}google maps api - to add google maps to Chateau HTML Template\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+\cf0 \
+\
+
+\b\fs36 3. Parallax
+\b0\fs24 \
+\
+Parallax in one of the cool feature of Chateau HTML Template. You can easily manage parallax background images. Check out this piece of code, taken from line 271 of home page:\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f1 \cf2 \expnd0\expndtw0\kerning0
+<section class="section-photo \cf0 \expnd0\expndtw0\kerning0
+parallax\cf2 \expnd0\expndtw0\kerning0
+ color-light" \cf0 \expnd0\expndtw0\kerning0
+data-stellar-background-ratio="0.5" style="background-image:url('http://placehold.it/2000x1000')"\cf2 \expnd0\expndtw0\kerning0
+>\
+    <div class="container">\
+        <div class="row">\
+            <div class="col-sm-12 text-center">\
+<h2><em>Our Manor</em></h2>\
+<h3>In the heart of napa valley</h3>\
+            </div>\
+        </div>\
+    </div>\
+    <div class="overlay"></div>\
+</section>\cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+
+\f0 \cf0 \
+We added a 
+\i parallax
+\i0  class to style it properly and then specify two attributes. The first is the speed of relative scrolling, that we set to 0.5, so the half of normal scroll speed. The second is obviously the background image, that we set with an inline style, but you\'92re free to create a class or and id style for it.
+\i \
+
+\i0 \
+\
+
+\b\fs36 4. On-scroll effects
+\b0\fs24 \
+\
+On-scroll effects let you trigger when an element appear in the viewport and animate it with one of the effects of animate.css library. Check out this piece of code, taken from line 251 of home page:\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f1 \cf2 \expnd0\expndtw0\kerning0
+<div class="col-sm-4">\
+	<img alt="" class="img-responsive img-thumbnail mar-v \cf0 \expnd0\expndtw0\kerning0
+os-animation\cf2 \expnd0\expndtw0\kerning0
+" \cf0 \expnd0\expndtw0\kerning0
+data-os-animation="fadeInLeft" data-os-animation-delay="0s"\cf2 \expnd0\expndtw0\kerning0
+ src="http://placehold.it/720x720">\
+</div>
+\f4 \expnd0\expndtw0\kerning0
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+\cf2 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 What we are basically do here, is telling the image to appear with a fade in from left effect, when it enters the viewport. To achieve this effect we add an 
+\i os-animation
+\i0  class and specify two other attributes. The first is the animation itself, taken from animate.css library. The second is the delay - in seconds - to start the animation, 0s in this case. The waypoint.js plugin will take care to trigger when an element containing an 
+\i os-animation
+\i0  class will enter the viewport and properly start the animation by adding an 
+\i animated
+\i0  class. Pretty cool!\
+\
+\
+
+\b\fs36 5. Swiper Slider
+\b0\fs24 \
+\
+Swiper slider let you create beautiful and responsive carousels and responsive sliders. All you have to do is create a structure like this:\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f1 \cf4 \expnd0\expndtw0\kerning0
+<!-- Slider main container -->\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf2 \expnd0\expndtw0\kerning0
+<div id="swiper-1" class="swiper-container">\
+\
+    <!-- Required wrapper -->\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf4 \expnd0\expndtw0\kerning0
+    <div class="swiper-wrapper">\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf2 \expnd0\expndtw0\kerning0
+    \
+        <!-- Slides -->\
+        <div class="swiper-slide" id="slide-0">\
+	\'85\
+        </div>\
+\
+        <div class="swiper-slide" id="slide-1\'94>\
+	\'85\
+        </div>\
+\
+        <div class="swiper-slide" id="slide-2\'94>\
+	\'85\
+        </div>\
+\
+        <div class="swiper-slide" id="slide-3\'94>\
+	\'85\
+        </div>\
+\
+    </div>\
+    \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf4 \expnd0\expndtw0\kerning0
+    <!-- Pagination -->\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf2 \expnd0\expndtw0\kerning0
+    <div class="swiper-pagination"></div>\
+    \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf4 \expnd0\expndtw0\kerning0
+    <!-- Navigation buttons -->\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf2 \expnd0\expndtw0\kerning0
+    <div class="swiper-button-prev"></div>\
+    <div class="swiper-button-next"></div>\
+    \
+</div>\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf4 \expnd0\expndtw0\kerning0
+<!-- /#swiper-1 -->
+\f0 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+\cf0 \
+You have a
+\i  swiper-container
+\i0  that contains a 
+\i swiper-wrapper
+\i0 , which itself contains all the 
+\i swiper-slide
+\i0  class elements. Than you\'92ll have to style it properly, but you\'92ll find two coded example with Chateau HTML Template. \
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\sl288\slmult1\pardirnatural
+\ls3\ilvl0\cf0 {\listtext	
+\f3 \uc0\u9642 
+\f0 	}The first is the home page swiper\
+{\listtext	
+\f3 \uc0\u9642 
+\f0 	}The second is in the gallery page. You can also add \'93on slide change\'94 effects. To do it, take advantage of the home page swiper. See the following code, taken from line 151 of home page:\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f1 \cf2 \expnd0\expndtw0\kerning0
+<h1 class="color-light" \cf0 \expnd0\expndtw0\kerning0
+data-animation="animated bounceInDown"\cf2 \expnd0\expndtw0\kerning0
+>Award winning</h1>\
+<span class="separator" \cf0 \expnd0\expndtw0\kerning0
+data-animation="animated bounceInLeft"\cf2 \expnd0\expndtw0\kerning0
+></span>\
+<p class="color-light" \cf0 \expnd0\expndtw0\kerning0
+data-animation="animated bounceInUp"\cf2 \expnd0\expndtw0\kerning0
+>\
+\'85\
+</p>\cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+
+\f0 \cf0 \
+Thanks to the data-animation attribute we can easily add on slide change effects. All you need to do is add 
+\i animated
+\i0  value followed by the class name of an animate.css library effect.\
+\
+\
+
+\b\fs36 6. Isotope
+\b0\fs24 \
+\
+You can find an example of isotope application in two pages: 
+\i products.html
+\i0  and 
+\i blog-masonry.html
+\i0 . To create a masonry page check this code:\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+
+\f1 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf4 \expnd0\expndtw0\kerning0
+<!-- Filters -->\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf2 \expnd0\expndtw0\kerning0
+<ul id="secondary-nav" class="nav navbar-nav \cf0 \expnd0\expndtw0\kerning0
+isotope-filters\cf2 \expnd0\expndtw0\kerning0
+">\
+    <li class="active"><a \cf0 \expnd0\expndtw0\kerning0
+data-filter="*"\cf2 \expnd0\expndtw0\kerning0
+>All products</a></li>\
+    <li><a \cf0 \expnd0\expndtw0\kerning0
+data-filter=".red-wines"\cf2 \expnd0\expndtw0\kerning0
+>Red Wines</a></li>\
+    <li><a \cf0 \expnd0\expndtw0\kerning0
+data-filter=".white-wines"\cf2 \expnd0\expndtw0\kerning0
+>White Wines</a></li>\
+    <li><a \cf0 \expnd0\expndtw0\kerning0
+data-filter=".rose-wines"\cf2 \expnd0\expndtw0\kerning0
+>Ros\'e9 Wines</a></li>\
+    <li><a \cf0 \expnd0\expndtw0\kerning0
+data-filter=".food-specialties"\cf2 \expnd0\expndtw0\kerning0
+>Food Specialties</a></li>\
+</ul>\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+
+\f4 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 This part above let us create the filter nav. We use a data-filter attribute containing the class of the grid item to correctly filter it.\
+Then the grid itself:
+\f4 \cf2 \expnd0\expndtw0\kerning0
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f1 \cf4 \expnd0\expndtw0\kerning0
+<!-- Grid -->\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf2 \expnd0\expndtw0\kerning0
+<div class="isotope-grid">\
+	<div class="isotope-gutter-sizer"></div>\
+	<div class="isotope-grid-sizer"></div>\
+\
+	\
+	<div class="\cf0 \expnd0\expndtw0\kerning0
+isotope-grid-item isotope-grid-item-height2 red-wines\cf2 \expnd0\expndtw0\kerning0
+">\
+...\
+	</div>\
+	<div class="\cf0 \expnd0\expndtw0\kerning0
+isotope-grid-item white-wines\cf2 \expnd0\expndtw0\kerning0
+">\
+...\
+	</div>\
+\
+	...\
+\
+</div>\cf4 \expnd0\expndtw0\kerning0
+<!-- /.isotope grid-->
+\f4 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+\cf2 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 We specify required containers, then add isotope-grid-item to each element. In addition we add an auxiliary class to make the filter works. In this case red-wines and white-wines. We\'92re also crate a class to double the height of some items (.isotope-grid-item-height2), to achieve a true masonry layout. Then, at the bottom of the page, the script.
+\f4 \cf2 \expnd0\expndtw0\kerning0
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f1 \cf2 \expnd0\expndtw0\kerning0
+<script>\
+\
+$(document).ready(function() \{\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf4 \expnd0\expndtw0\kerning0
+/* ISOTOPE */\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf2 \expnd0\expndtw0\kerning0
+\
+function getHashFilter() \{\
+  // get filter=filterName\
+  var matches = location.hash.match( /filter=([^&]+)/i );\
+  var hashFilter = matches && matches[1];\
+  return hashFilter && decodeURIComponent( hashFilter );\
+\}\
+\
+var $grid = $('.isotope-grid');\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf4 \expnd0\expndtw0\kerning0
+// bind filter button click\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf2 \expnd0\expndtw0\kerning0
+var $filterButtonGroup = $('.isotope-filters');\
+$filterButtonGroup.on( 'click', 'a', function() \{\
+var filterAttr = $( this ).attr('data-filter');\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf4 \expnd0\expndtw0\kerning0
+// set filter in hash\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf2 \expnd0\expndtw0\kerning0
+location.hash = 'filter=' + encodeURIComponent( filterAttr );\
+\});\
+\
+var isIsotopeInit = false;\
+\
+function onHashchange() \{\
+	var hashFilter = getHashFilter();\
+	if ( !hashFilter && isIsotopeInit ) \{\
+	  return;\
+	\}\
+	isIsotopeInit = true;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf5 \expnd0\expndtw0\kerning0
+	// filter isotope\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf2 \expnd0\expndtw0\kerning0
+	$grid.isotope(\{\
+	  itemSelector: '.isotope-grid-item',\
+	  masonry: \{\
+columnWidth: '.isotope-grid-sizer',\
+gutter: '.isotope-gutter-sizer',\
+isFitWidth: true     \
+\},\
+	  filter: hashFilter\
+	\});\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf4 \expnd0\expndtw0\kerning0
+	// set selected class on button\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf2 \expnd0\expndtw0\kerning0
+	if ( hashFilter ) \{\
+	  $filterButtonGroup.find('.active').removeClass('active');\
+	  var $current = $filterButtonGroup.find('[data-filter="' + hashFilter + '"]');\
+	  $current.parent().addClass('active');\
+	\}\
+\}\
+\
+$(window).on( 'hashchange', onHashchange );\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf4 \expnd0\expndtw0\kerning0
+// trigger event handler to init Isotope\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf2 \expnd0\expndtw0\kerning0
+onHashchange();\
+\
+\}); \
+\
+</script>
+\f4 \expnd0\expndtw0\kerning0
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \
+You\'92ve seen in the piece of code above, we specified all the class used in the html to make things work properly. The code above let us specify gutter and column size directly via css, so we can easily manage the page design all from css, without worrying about spacing specified in js code. In addition, this piece of code let us apply filters by reading the hash in the url.\
+\
+\
+
+\b\fs36 7. Plug-ins and other references\
+
+\b0\fs24 \
+Here are a full list of plugins and references used to build this theme\
+\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\sl288\slmult1\pardirnatural
+\ls4\ilvl0\cf0 {\listtext	
+\f3 \uc0\u9642 
+\f0 	}Animate				https://daneden.github.io/animate.css/\
+{\listtext	
+\f3 \uc0\u9642 
+\f0 	}Bootstrap			http://getbootstrap.com\
+{\listtext	
+\f3 \uc0\u9642 
+\f0 	}Google Fonts			https://www.google.com/fonts\
+{\listtext	
+\f3 \uc0\u9642 
+\f0 	}Isotope				http://isotope.metafizzy.co\
+{\listtext	
+\f3 \uc0\u9642 
+\f0 	}jQuery				https://jquery.com\
+{\listtext	
+\f3 \uc0\u9642 
+\f0 	}Modernizr			http://modernizr.com\
+{\listtext	
+\f3 \uc0\u9642 
+\f0 	}Stellar 				http://markdalgleish.com/projects/stellar.js/\
+{\listtext	
+\f3 \uc0\u9642 
+\f0 	}SwipeBox			http://brutaldesign.github.io/swipebox/\
+{\listtext	
+\f3 \uc0\u9642 
+\f0 	}Swiper				http://www.idangero.us/swiper/\
+{\listtext	
+\f3 \uc0\u9642 
+\f0 	}Waypoints			http://imakewebthings.com/waypoints/\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl288\slmult1\pardirnatural
+\cf0 \
+Credits:\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\sl288\slmult1\pardirnatural
+\ls5\ilvl0\cf0 {\listtext	
+\f3 \uc0\u9642 
+\f0 	}The video used in the homepage has been taken from coverr.com here is the link of the license: https://creativecommons.org/publicdomain/zero/1.0/\
+}
