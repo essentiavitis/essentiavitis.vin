@@ -902,7 +902,6 @@ footer {
   background-color: #1a1117;
   padding: 50px 0;
   color: rgba(255, 255, 255, 0.5);
-  /* background-image: url("../../images/chateau-sketch-footer.gif"); */
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -1821,7 +1820,6 @@ table#cart {
   }
   #main-nav-bar.navbar {
     height: 140px;
-    /* background-image: url("../../images/chateau-sketch.png"); */
     background-position: 20% 20%;
     background-repeat: no-repeat;
   }
