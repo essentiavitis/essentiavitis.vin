@@ -889,11 +889,11 @@ img {
 .parallax-background.fixed {
 	background-attachment: fixed !important;
 }
-.parallax-banner-1 { background:url('../images/parallax-banner-1.jpg'); background-position: center center; }
+.parallax-banner-1 { background:url('../images/vignes-eric-laguerre.jpg'); background-position: center center; }
 .parallax-banner-2 { background:url('../images/philosophy.jpg'); background-position: center center; }
 .parallax-banner-3 { background:url('../images/parallax-banner-3.jpg'); }
-.parallax-banner-4 { background:url('../images/parallax-banner-4.jpg'); background-position:center bottom !important; }
-.parallax-banner-5 { background:url('../images/parallax-banner-5.jpg'); }
+.parallax-banner-4 { background:url('../images/event-3.jpg'); background-position:center bottom !important; }
+.parallax-banner-5 { background:url('../images/rue-des-vignes.jpg'); }
 .parallax-banner-6 { background:url('../images/parallax-banner-6.jpg'); }
 .parallax-banner-7 { background:url('../images/404.jpg'); }
 

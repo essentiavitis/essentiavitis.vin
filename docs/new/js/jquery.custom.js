@@ -62,7 +62,7 @@
 			}, 3000 );
 		}
 		
-		ut_word_rotator();
+		// ut_word_rotator();
 		
 		
 		
