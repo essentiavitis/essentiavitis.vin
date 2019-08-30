@@ -19,7 +19,7 @@ a {
 }
 strong { color: #2c3e50; }
 blockquote, blockquote p { color: #2c3e50; }
-.icons-ul i { color:#2c3e50; }
+.icons-ul i { color:#fff; }
 .ha-header nav a:hover {
 	color: #2c3e50;
 }
