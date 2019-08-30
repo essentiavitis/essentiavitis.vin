@@ -27,14 +27,14 @@
 	#Footer Section
 	#Buttons
 	#Forms
-	#Misc 
+	#Misc
 	#Media Queries
 	#Grid */
 
 
 /* #General
 ================================================== */
-	
+
 html {
 	height:100%;
 }
@@ -73,7 +73,7 @@ h6 { font-size:12px; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 p { margin: 0 0 20px 0; }
 p img { margin: 0; }
-p.lead { font-size: 21px; line-height: 27px; color: #77777;  }
+p.lead { font-size: 21px; line-height: 27px; color: #777777; }
 em { font-style: italic; }
 strong { font-weight: bold; }
 small { font-size: 80%; }
@@ -91,8 +91,8 @@ hr { border: solid #DDDDDD; border-width: 1px 0 0; clear: both; margin: 20px 0 4
 /* #Links
 ================================================== */
 
-a { 
-	text-decoration: none; 
+a {
+	text-decoration: none;
 	outline: 0;
 	-webkit-transform: translateZ(0);
 	-webkit-transition:0.2s color linear;
@@ -121,10 +121,10 @@ ol ol li, ol ul li { margin-bottom: 0 }
 
 img {
 	max-width: 100%;
-	height: auto; 
+	height: auto;
 }
 @media \0screen {
-  img { 
+  img {
   	width: auto; /* for ie 8 */
   }
 }
@@ -371,7 +371,7 @@ img {
 	margin-bottom:20px;
 	-webkit-border-radius:50%;
 		-moz-border-radius:50%;
-			border-radius:50%;	
+			border-radius:50%;
 }
 .about-icon img {
 	max-width:30px;
